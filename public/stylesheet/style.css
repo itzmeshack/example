@@ -1,0 +1,292 @@
+@media (max-width: 1020px) and (max-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgba(7, 7, 55, 0.99);
+
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    header.main-container {
+        background-color: rgb(7, 7, 55);
+        padding: 10px 10px 0px 0px;
+
+    }
+
+    #bar {
+        font-size: 30px;
+    }
+
+    .cart {
+        font-size: px;
+    }
+
+
+    .nav-bar {
+        width: 100vw;
+
+    }
+
+    .navigation-link {
+
+        display: flex;
+        justify-content: space-between;
+        padding: .9em;
+        color: white;
+
+    }
+
+
+
+
+
+    .nav-containter {
+        color: white;
+
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .nav-list {
+        padding: .9em;
+        font-size: 16px;
+
+
+    }
+
+    #active-me {
+        border-bottom: 6px solid blue;
+        width: 27vw;
+    }
+
+
+
+
+    .note {
+        font-size: 12px;
+        position: relative;
+        top: -2em;
+    }
+
+
+    .all-container {
+        margin-top: 1em;
+        margin-right: .5em;
+        margin-left: .5em;
+        height: 89vh;
+        background-color: rgb(255, 255, 255);
+
+    }
+
+    .word {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 27px;
+    }
+
+
+
+    .scanner {
+
+        text-align: center;
+
+        margin-left: 2em;
+        margin-right: 2em;
+        align-items: center;
+        position: relative;
+
+
+
+
+
+    }
+
+    .scan {}
+
+    .scan-code {
+        width: 75%;
+        position: relative;
+        top: 1em;
+        margin-bottom: 7em;
+
+
+
+
+
+
+
+
+
+    }
+
+    .day-rider {
+
+        position: relative;
+        text-align: center;
+        padding: 1em;
+        top: -6em;
+    }
+
+    .adult-section {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5px 10px 5px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: -4em;
+        margin: 1em;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .time-section {
+        text-align: center;
+        position: relative;
+        top: -2em;
+
+
+    }
+
+    .sec {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        position: relative;
+        top: -3.8em;
+        font-size: 12px;
+        padding: 10px 0px 10px 0px;
+        font-weight: bold;
+
+    }
+
+    .main-time {
+        background-color: rgba(23, 179, 124, 0.963);
+        background-image: url('../images/bg.svg');
+        color: black;
+        padding: 1.5em;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: -2em;
+        transform-origin: center; /* Set the rotation origin to the center of the div */
+        transition: transform 0.5s;
+
+
+    }
+
+    .main-time span {
+        left: 0;
+        right: 0;
+        top: 1em;
+        bottom: 0;
+        position: absolute;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+
+    .main-time span.active {
+        opacity: 1;
+    }
+
+    .time {
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+    }
+
+    .word {
+        font-size: 30px;
+        font-weight: 700;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+
+        text-align: center;
+    }
+
+
+
+
+    /*  FOR KEYFRAME EFFECTS
+    @keyframes rotate {
+        0% {
+            transform: rotate(20deg);
+        }
+
+        100% {
+            transform: rotate(-10deg);
+        }
+
+
+
+    }
+
+    ;
+
+    @keyframes rotateleft {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(-20deg);
+        }
+    }
+
+*/
+
+
+
+
+
+    .tic-expires {
+        padding: 3em;
+    }
+
+    .note-section {
+        padding: 2em;
+        position: relative;
+        top: -6.5em;
+
+
+
+    }
+
+    .code-section {
+
+        text-align: center;
+        padding: 5px 30px 5px 30px;
+        background-color: lightgray;
+
+        border-radius: 20px;
+        position: relative;
+
+
+    }
+
+    .code {}
+
+    .links {
+        text-decoration: none;
+        color: green;
+    }
+
+    .more {
+        position: relative;
+        padding: 1em;
+    }
+}
+
+
+
